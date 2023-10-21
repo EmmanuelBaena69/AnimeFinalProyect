@@ -12,7 +12,7 @@ const Footer = () => {
         </li>
         <li>
           <span className="icon"><i className="fa fa-instagram fa-2x" aria-hidden="true"></i></span>
-          <a className="text" href="https://github.com/EmmanuelBaena69" target="_blank">Emmanuel/Instagram</a>
+          <a className="text" href="https://www.instagram.com/emmanuel___tesfaye/?hl=es" target="_blank">Emmanuel/Instagram</a>
         </li>
         <li>
           <span className="icon"><i className="fa fa-github fa-2x" aria-hidden="true"></i></span>
@@ -23,7 +23,7 @@ const Footer = () => {
           <a className="text" href="https://www.instagram.com/jtejadabustamante?igshid=YTQwZjQ0NmI0OA%3D%3D" target="_blank">Juan Manuel/Instagram</a>
         </li>
       </ul>
-      <p>&copy; 2023 Mi Sitio Web. Todos los derechos reservados.</p>      
+      <p>&copy; 2023 animeKira.com. Todos los derechos reservados.</p>      
     </footer>
   );
 }
