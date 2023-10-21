@@ -1,40 +1,63 @@
-import { useRef } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { useState } from "react";
 import navbar from "../styles/navbar.css";
-import img from "../assets/img/kira.png";
+import kira from "../assets/img/kira.png";
+import { FaBars, FaTimes } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-function Navbar() {
-
-    const navRef = useRef();
-
-    const showNavbar = () =>{
-        navRef.current.classList.toggle("responsive_nav");
-    }
+const Navbar = () => {
+  const [openNavbar, setOpenNavbar] = useState(false);
+  const links = [
+    {
+      nombre: "recientes",
+      link: "/",
+    },
+    {
+      nombre: "destacados",
+      link: "/destacados",
+    },
+    {
+      nombre: "Catalogo",
+      link: "/catalogo",
+    },
+  ];
+  const handleclic = () => setOpenNavbar(!openNavbar);
 
   return (
-    <header>
-      <h3 className="logo">
-        <img src={img} alt="Logo" style={{ width: '150px' }} />
-      </h3>
-      <nav ref={navRef}>
-        <a href="#">Reciente</a>
-        <a href="#">Populares</a>
-        <a href="#">Catalogo</a>
-        <a href="#">Sobre nosotros</a>
-        <input
+    <nav className="navbar">
+      <section className="navbar__section">
+        <h1 className="navbar__titulo">
+          <img src={kira} alt="" id="kira" />
+        </h1>
+      </section>
+
+      <button className="navbar__button cerrar" onClick={handleclic}>
+        <FaBars />
+      </button>
+
+      <ul id="navbar__lista" className={`${openNavbar ? "mostrar" : ""}`}>
+        <button onClick={handleclic} className="navbar__button">
+          <FaTimes />
+        </button>
+
+        {links.map(({ nombre, link }) => (
+          <li key={nombre}>
+            <NavLink to={link}>{nombre}</NavLink>
+          </li>
+        ))}
+        <li>
+          {" "}
+          <input
             type="text"
             placeholder="Buscar..."
             id="lista__busqueda"
           />{" "}
-        <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-            <FaTimes/>
-        </button>
-      </nav>
-      <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-        <FaBars/>
-      </button>
-    </header>
+        </li>
+        <li>
+          <NavLink to={"/login"}>login</NavLink>
+        </li>
+      </ul>
+    </nav>
   );
-}
-
+};
 export default Navbar;
