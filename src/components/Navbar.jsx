@@ -1,50 +1,40 @@
-import { useState } from "react";
+import { useRef } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 import navbar from "../styles/navbar.css";
-import kira from "../assets/img/kira.png";
+import img from "../assets/img/kira.png";
 
-const Navbar = () => {
-  const [openNavbar, setOpenNavbar] = useState(false);
+function Navbar() {
 
-  const handleclic = () => setOpenNavbar(!openNavbar);
+    const navRef = useRef();
+
+    const showNavbar = () =>{
+        navRef.current.classList.toggle("responsive_nav");
+    }
 
   return (
-    <nav className="navbar">
-      <section className="navbar__section">
-        <h1 className="navbar__titulo">
-          <img src={kira} alt="" id="kira" />
-        </h1>
-      </section>
-
-      <button id="navbar__button" onClick={handleclic}>
-        <>{openNavbar ? <p>cerrar</p> : <p>abrir</p>}</>
-      </button>
-
-      <ul id="navbar__lista" className={`${openNavbar ? "mostrar" : null}`}>
-        <li>
-          <a href="" className="lista__link">
-            INICIO
-          </a>
-        </li>
-        <li>
-          <a href="/clase-2/directorio.html" className="lista__link">
-            DIRECTORIO DE ANIME
-          </a>
-        </li>
-        <li>
-          {" "}
-          <input
+    <header>
+      <h3 className="logo">
+        <img src={img} alt="Logo" style={{ width: '150px' }} />
+      </h3>
+      <nav ref={navRef}>
+        <a href="#">Reciente</a>
+        <a href="#">Populares</a>
+        <a href="#">Catalogo</a>
+        <a href="#">Sobre nosotros</a>
+        <input
             type="text"
             placeholder="Buscar..."
             id="lista__busqueda"
           />{" "}
-        </li>
-        <li>
-          <a href="" className="lista__link">
-            Login
-          </a>
-        </li>
-      </ul>
-    </nav>
+        <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+            <FaTimes/>
+        </button>
+      </nav>
+      <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+        <FaBars/>
+      </button>
+    </header>
   );
-};
+}
+
 export default Navbar;
