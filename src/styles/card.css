@@ -1,0 +1,36 @@
+.CM{
+    width:300px;
+    overflow: hidden;
+    
+}
+
+
+.CM__Art{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center ;
+    text-align: center;
+    border:2px rgba(82, 82, 82,0.5) solid ;
+    border-radius: 15px;
+    transition: all 0.2s ease;
+   
+}
+
+.CM__Art:hover{
+    transform: scale(1.1);
+}
+
+
+.Art__Img{
+    width: 320px;
+    height: auto;
+    border-radius: 15px;
+
+}
+.Art__Main{
+    display: flex;
+    flex-direction: column;
+    
+    
+}

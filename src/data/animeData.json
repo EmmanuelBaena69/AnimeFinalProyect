@@ -1,0 +1,61 @@
+{
+    "animes":[
+        {
+            "img":"https://es.web.img3.acsta.net/pictures/19/09/18/13/46/0198270.jpg",
+            "titulo":"Kimetsu No Yaiba",
+            "temporada":1,
+            "capitulos":24
+        },
+        {
+            "img":"https://pbs.twimg.com/media/FsmQGn7XwAEAogL?format=jpg&name=4096x4096",
+            "titulo":"Kimetsu No Yaiba",
+            "temporada":2,
+            "capitulos":20
+        },
+        {
+            "img":"https://pics.filmaffinity.com/Guardianes_de_la_noche_Rumbo_a_la_aldea_de_los_herreros-213333256-large.jpg",
+            "titulo":"Kimetsu No Yaiba",
+            "temporada":3,
+            "capitulos":21
+        },
+        {
+            "img":"https://es.web.img3.acsta.net/pictures/19/07/09/11/08/2827992.jpg",
+            "titulo":"Sword Art Online",
+            "temporada":1,
+            "capitulos":12
+        },
+        {
+            "img":"https://m.media-amazon.com/images/I/61BUwfZ0bpL.jpg",
+            "titulo":"Sword Art Online",
+            "temporada":"1 parte 2",
+            "capitulos":12
+        },
+        {
+            "img":"https://m.media-amazon.com/images/I/61-HMWVxFrL._AC_UF894,1000_QL80_.jpg",
+            "titulo":"Sword Art Online",
+            "temporada":2,
+            "capitulos":12
+        },
+        {
+            "img":"https://static.wikia.nocookie.net/dr-stone/images/c/cb/Anime_date_announcement.png",
+            "titulo":"Dr.Stone",
+            "temporada":1,
+            "capitulos":12
+        },
+        {
+            "img":"https://m.media-amazon.com/images/I/61cpOAG8N7L._AC_UF894,1000_QL80_.jpg",
+            "titulo":"Dr.Stone",
+            "temporada":2,
+            "capitulos":12
+        },
+        {
+            "img":"https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2022/06/Dr.-Stone-temporada-3-Ryusui.jpg?resize=1280%2C1809&quality=80&ssl=1",
+            "titulo":"Dr.Stone",
+            "temporada":3,
+            "capitulos":12
+        }
+    ]
+    
+
+}
+ 
