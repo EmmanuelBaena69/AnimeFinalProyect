@@ -1,6 +1,7 @@
 import Card from "../components/Card";
 import animeData from "../data/animeData.json"
 import main from "../styles/main.css"
+import footer from "../components/footer";
 
 const Main = () => {
     const {animes} = animeData

@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center ;
     text-align: center;
-    border:2px rgba(82, 82, 82,0.5) solid ;
+    border:2px rgba(0, 47, 255, 0.5) solid ;
     border-radius: 15px;
     transition: all 0.2s ease;
    
@@ -24,13 +24,12 @@
 
 .Art__Img{
     width: 320px;
-    height: auto;
+    height: 450px;
     border-radius: 15px;
 
 }
 .Art__Main{
     display: flex;
-    flex-direction: column;
-    
-    
+    flex-direction: column;   
+    color: #E966A0;
 }

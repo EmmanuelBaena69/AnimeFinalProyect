@@ -13,7 +13,7 @@
             "capitulos":20
         },
         {
-            "img":"https://pics.filmaffinity.com/Guardianes_de_la_noche_Rumbo_a_la_aldea_de_los_herreros-213333256-large.jpg",
+            "img":"https://somoskudasai.com/wp-content/uploads/2022/12/Kimetsu-visual-min.jpg",
             "titulo":"Kimetsu No Yaiba",
             "temporada":3,
             "capitulos":21
@@ -53,9 +53,26 @@
             "titulo":"Dr.Stone",
             "temporada":3,
             "capitulos":12
+        },
+        {
+            "img": "https://static.tvtropes.org/pmwiki/pub/images/image_0250.jpeg",
+            "titulo": "Code Geass",
+            "temporada":1,
+            "capitulos":25
+        },
+        {
+            "img": "https://m.media-amazon.com/images/M/MV5BMGQ1ZjYzOGQtOWFhNy00YzQwLWEyYmItZGYwODQ4NDU3MDhlXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg",
+            "titulo": "Bunny Girl Senpai",
+            "temporada":1,
+            "capitulos":13
+        },
+        {
+            "img": "https://www.anmosugoi.com/wp-content/uploads/2021/10/Go-Toubun-no-Hanayome-pelicula-1.jpg",
+            "titulo": "go toubun no hanayome",
+            "temporada":2,
+            "capitulos":24
         }
+        
     ]
-    
-
 }
  
