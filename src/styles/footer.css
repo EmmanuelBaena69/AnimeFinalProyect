@@ -1,18 +1,21 @@
-.footer{
-    background-color: black;
-}
+.footer {
+    background-color: #292b2c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
 
-ul {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-bottom: 15px;
-}
 
 a{
     text-decoration: none;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
 }
 
 .footer h1{
@@ -20,7 +23,6 @@ a{
     align-items: center;
     justify-content: center;
     color: white;
-    margin-top: 25px;
 }
 
 .footer p{
@@ -28,7 +30,7 @@ a{
     align-items: center;
     justify-content: center;
     color: white;
-    padding: 15px;
+    margin-top: 8px;
 }
 
 .footer a{
