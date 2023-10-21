@@ -9,6 +9,9 @@ const Main = () => {
 
   return (
     <>
+    <section className="center-section">
+      <h1>Todo lo Reciente</h1>
+    </section>
       <section className="CP">
         {animes.map((elemento) => (
             

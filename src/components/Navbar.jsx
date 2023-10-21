@@ -1,17 +1,21 @@
-import { useRef } from "react";
+import { useState, useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import navbar from "../styles/navbar.css";
 import img from "../assets/img/kira.png";
 
-function Navbar() {
+const Navbar = () => {
+
+  const [isNavOpen, setIsNavOpen] = useState(false); // Estado para controlar el menú
 
     const navRef = useRef();
 
     const showNavbar = () =>{
         navRef.current.classList.toggle("responsive_nav");
+        setIsNavOpen(!isNavOpen)
     }
 
   return (
+    
     <header>
       <h3 className="logo">
         <img src={img} alt="Logo" style={{ width: '150px' }} />
