@@ -8,6 +8,16 @@
     background-color: black;
 }
 
+.center-section{
+    margin-top: 15px;
+}
+
+.center-section h1{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
 @media (min-width :768px) {
     .CP{
         flex-direction: row;

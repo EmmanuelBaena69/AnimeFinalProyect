@@ -14,7 +14,12 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
+<<<<<<< HEAD
     "react-router-dom": "^6.17.0"
+=======
+    "react-id-swiper": "^4.0.0",
+    "swiper": "^10.3.1"
+>>>>>>> 71461229cabf8307379befbef772f94d55f4d786
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
