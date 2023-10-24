@@ -7,6 +7,7 @@ import PublicLayout from "./layouts/PublicLayout";
 import Destacados from "./pages/Destacados"
 import Catalogo from "./pages/Catalogo"
 import Login from "./pages/Login"
+import AboutUs from "./pages/AboutUs"
 
 function App() {
   return (
@@ -18,8 +19,8 @@ function App() {
             <Route path="destacados" element={<Destacados />}/>
             <Route path="catalogo" element={<Catalogo />}/>
             <Route path="login" element={<Login />}/>
+            <Route path="aboutus" element={<AboutUs />}/>
           </Route>
-          
         </Routes>
       </Router>
     </>

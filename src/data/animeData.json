@@ -4,73 +4,109 @@
             "img":"https://es.web.img3.acsta.net/pictures/19/09/18/13/46/0198270.jpg",
             "titulo":"Kimetsu No Yaiba",
             "temporada":1,
-            "capitulos":24
+            "capitulos":24,
+            "estado":"Reciente"
         },
         {
             "img":"https://pbs.twimg.com/media/FsmQGn7XwAEAogL?format=jpg&name=4096x4096",
             "titulo":"Kimetsu No Yaiba",
             "temporada":2,
-            "capitulos":20
+            "capitulos":20,
+            "estado":"Reciente"
+            
         },
         {
             "img":"https://somoskudasai.com/wp-content/uploads/2022/12/Kimetsu-visual-min.jpg",
             "titulo":"Kimetsu No Yaiba",
             "temporada":3,
-            "capitulos":21
+            "capitulos":21,
+            "estado":"Reciente"
         },
         {
             "img":"https://es.web.img3.acsta.net/pictures/19/07/09/11/08/2827992.jpg",
             "titulo":"Sword Art Online",
             "temporada":1,
-            "capitulos":12
+            "capitulos":12,
+            "estado":"general"
         },
         {
             "img":"https://m.media-amazon.com/images/I/61BUwfZ0bpL.jpg",
             "titulo":"Sword Art Online",
             "temporada":"1 parte 2",
-            "capitulos":12
+            "capitulos":12,
+            "estado":"general"
         },
         {
             "img":"https://m.media-amazon.com/images/I/61-HMWVxFrL._AC_UF894,1000_QL80_.jpg",
             "titulo":"Sword Art Online",
             "temporada":2,
-            "capitulos":12
+            "capitulos":12,
+            "estado":"general"
         },
         {
             "img":"https://static.wikia.nocookie.net/dr-stone/images/c/cb/Anime_date_announcement.png",
             "titulo":"Dr.Stone",
             "temporada":1,
-            "capitulos":12
+            "capitulos":12,
+            "estado":"Reciente"
         },
         {
             "img":"https://m.media-amazon.com/images/I/61cpOAG8N7L._AC_UF894,1000_QL80_.jpg",
             "titulo":"Dr.Stone",
             "temporada":2,
-            "capitulos":12
+            "capitulos":12,
+            "estado":"general"
         },
         {
             "img":"https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2022/06/Dr.-Stone-temporada-3-Ryusui.jpg?resize=1280%2C1809&quality=80&ssl=1",
             "titulo":"Dr.Stone",
             "temporada":3,
-            "capitulos":12
+            "capitulos":12,
+            "estado":"general"
         },
         {
             "img": "https://static.tvtropes.org/pmwiki/pub/images/image_0250.jpeg",
             "titulo": "Code Geass",
             "temporada":1,
-            "capitulos":25
+            "capitulos":25,
+            "estado":"general"
         },
         {
             "img": "https://m.media-amazon.com/images/M/MV5BMGQ1ZjYzOGQtOWFhNy00YzQwLWEyYmItZGYwODQ4NDU3MDhlXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg",
             "titulo": "Bunny Girl Senpai",
             "temporada":1,
-            "capitulos":13
+            "capitulos":13,
+            "estado":"general"
         },
         {
             "img": "https://www.anmosugoi.com/wp-content/uploads/2021/10/Go-Toubun-no-Hanayome-pelicula-1.jpg",
             "titulo": "go toubun no hanayome",
             "temporada":2,
-            "capitulos":24
+            "capitulos":24,
+            "estado":"general"
+        }
+
+        ,
+        {
+            "img": "https://www3.animeflv.net/uploads/animes/covers/3855.jpg",
+            "titulo": "One Piece Film: Red",
+            "temporada":11,
+            "capitulos":1,
+            "estado":"Reciente"
+        } ,
+        {
+            "img": "https://es.web.img3.acsta.net/r_1280_720/pictures/19/07/09/16/38/4390834.jpg",
+            "titulo": "Noragami",
+            "temporada":1,
+            "capitulos":12,
+            "estado":"General"
+        },
+        {
+            "img": "https://images.justwatch.com/poster/36002395/s592/noragami",
+            "titulo": "Noragami",
+            "temporada":2,
+            "capitulos":12, 
+            "estado":"General"
         }
         
     ]

@@ -1,0 +1,19 @@
+.Mision{
+    color:white;
+}
+.Mision{
+    padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Mision__Article{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+@media(min-width:768px){
+    .Mision__Article{
+        width: 750px;
+    }
+}

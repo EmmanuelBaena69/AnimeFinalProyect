@@ -9,17 +9,21 @@ const Navbar = () => {
   const [openNavbar, setOpenNavbar] = useState(false);
   const links = [
     {
-      nombre: "recientes",
+      nombre: "Recientes",
       link: "/",
     },
     {
-      nombre: "destacados",
+      nombre: "Destacados",
       link: "/destacados",
     },
     {
       nombre: "Catalogo",
       link: "/catalogo",
     },
+    {
+      nombre:"Acerca de Nosotros",
+      link:"/aboutus"
+    }
   ];
   const handleclic = () => setOpenNavbar(!openNavbar);
 

@@ -12,6 +12,8 @@
   top:0px;
   z-index: 100;
   background-image: url("../assets/img/rain.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #kira{
