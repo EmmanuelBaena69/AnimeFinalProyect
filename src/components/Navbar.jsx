@@ -21,8 +21,8 @@ const Navbar = () => {
       link: "/catalogo",
     },
     {
-      nombre:"Acerca de Nosotros",
-      link:"/aboutus"
+      nombre: "Acerca de Nosotros",
+      link: "/aboutus"
     }
   ];
   const handleclic = () => setOpenNavbar(!openNavbar);

@@ -1,18 +1,21 @@
-import style from "./styles/style.css"
-import Navbar from "./components/Navbar"
-import Main from "./pages/Main"
-import Footer from "./components/footer"
-import Slider from "./components/slider"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import style from "./styles/style.css";
+import PublicLayout from "./layouts/PublicLayout";
+import Main from "./pages/Main";
 
 function App() {
   return (
-      <>
-        <Navbar/>
-        <Slider/>
-        <Main/>
-        <Footer/>
-      </>
-  )
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<PublicLayout />}>
+            <Route path="" element={<Main />} />
+
+          </Route>
+        </Routes>
+      </Router>
+    </>
+  );
 }
 
 export default App;
