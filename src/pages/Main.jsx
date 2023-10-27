@@ -1,16 +1,16 @@
 import Card from "../components/Card";
 import animeData from "../data/animeData.json"
-import Slider from "../components/slider"
+import Slider from "../components/Slider"
 import main from "../styles/main.css"
 
 const Main = () => {
   const { animes } = animeData;
   return (
     <>
-    <section className="center-section">
-      <h1>Todo lo Reciente</h1>
-    </section>
-    <Slider />
+      <section className="center-section">
+        <h1>Todo lo Reciente</h1>
+      </section>
+      <Slider />
       <section className="CP">
         {animes
           .filter(elemento => elemento.estado === "Reciente")

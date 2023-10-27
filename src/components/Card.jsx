@@ -5,7 +5,7 @@ const Card = ({ paquete }) => {
     <section className="CM">
       <article className="CM__Art">
         <figure>
-          <img src={paquete.img} alt="" className="Art__Img"/>
+          <img src={paquete.img} alt="" className="Art__Img" />
         </figure>
         <main className="Art__Main">
           <h1>{paquete.titulo}</h1>

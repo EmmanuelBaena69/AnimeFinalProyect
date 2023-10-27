@@ -9,7 +9,7 @@
         },
         {
             "img":"https://pbs.twimg.com/media/FsmQGn7XwAEAogL?format=jpg&name=4096x4096",
-            "titulo":"Kimetsu No Yaiba",
+            "titulo":"Kimetsu No Yaiba S2",
             "temporada":2,
             "capitulos":20,
             "estado":"Reciente"
@@ -17,7 +17,7 @@
         },
         {
             "img":"https://somoskudasai.com/wp-content/uploads/2022/12/Kimetsu-visual-min.jpg",
-            "titulo":"Kimetsu No Yaiba",
+            "titulo":"Kimetsu No Yaiba S3",
             "temporada":3,
             "capitulos":21,
             "estado":"Reciente"
@@ -31,14 +31,14 @@
         },
         {
             "img":"https://m.media-amazon.com/images/I/61BUwfZ0bpL.jpg",
-            "titulo":"Sword Art Online",
-            "temporada":"1 parte 2",
+            "titulo":"Sword Art Online P2",
+            "temporada":2,
             "capitulos":12,
             "estado":"general"
         },
         {
             "img":"https://m.media-amazon.com/images/I/61-HMWVxFrL._AC_UF894,1000_QL80_.jpg",
-            "titulo":"Sword Art Online",
+            "titulo":"Sword Art Online S2",
             "temporada":2,
             "capitulos":12,
             "estado":"general"
@@ -52,14 +52,14 @@
         },
         {
             "img":"https://m.media-amazon.com/images/I/61cpOAG8N7L._AC_UF894,1000_QL80_.jpg",
-            "titulo":"Dr.Stone",
+            "titulo":"Dr.Stone S2",
             "temporada":2,
             "capitulos":12,
             "estado":"general"
         },
         {
             "img":"https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2022/06/Dr.-Stone-temporada-3-Ryusui.jpg?resize=1280%2C1809&quality=80&ssl=1",
-            "titulo":"Dr.Stone",
+            "titulo":"Dr.Stone S3",
             "temporada":3,
             "capitulos":12,
             "estado":"general"
@@ -80,7 +80,7 @@
         },
         {
             "img": "https://www.anmosugoi.com/wp-content/uploads/2021/10/Go-Toubun-no-Hanayome-pelicula-1.jpg",
-            "titulo": "go toubun no hanayome",
+            "titulo": "go toubun no hanayome S2",
             "temporada":2,
             "capitulos":24,
             "estado":"general"
@@ -89,7 +89,7 @@
         ,
         {
             "img": "https://www3.animeflv.net/uploads/animes/covers/3855.jpg",
-            "titulo": "One Piece Film: Red",
+            "titulo": "One Piece Film: Red S11",
             "temporada":11,
             "capitulos":1,
             "estado":"Reciente"
@@ -103,7 +103,7 @@
         },
         {
             "img": "https://images.justwatch.com/poster/36002395/s592/noragami",
-            "titulo": "Noragami",
+            "titulo": "Noragami S2",
             "temporada":2,
             "capitulos":12, 
             "estado":"General"
