@@ -7,12 +7,18 @@ const Catalogo = () => {
   const { animes } = animeData;
   return (
     <>
-     
+
       <section className="CP">
         {animes.map((elemento) => (
-          <Card key={elemento.titulo} paquete={elemento} />
+          <div key={elemento.titulo} className="catalogo-item">
+            <Card paquete={elemento} />
+            <div className="button-container">
+              <button className="button">Like</button>
+              <button className="button">Dislike</button>
+            </div>
+          </div>
         ))}
-      </section>        
+      </section>
     </>
   );
 };
