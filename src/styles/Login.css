@@ -65,9 +65,9 @@
     transition: transform 0.3s;
 }
 
-.login__input:focus + .login__label {
+.login__input:focus + .login__label{
     font-size: medium;
-    color: blue;
+    color: white;
     transform: translateY(-3em) scale(0.75);
     left: 0;
 }

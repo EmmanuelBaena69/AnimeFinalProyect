@@ -20,6 +20,9 @@
   width: 200px;
   height:90px;
   border-radius:20px;
+  filter: saturate(4);
+ 
+ 
 }
 
 #navbar__lista{
@@ -38,6 +41,7 @@
   bottom: 0;
   transition: 1s;
   background-color: transparent;
+  
 }
 
 #navbar__lista Button{
