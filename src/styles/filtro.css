@@ -1,0 +1,40 @@
+body{
+    color:black;
+}
+.mostrario{
+    display: flex;
+    flex-direction:row;
+    padding:0 20px;
+    gap:5px
+}
+.Filtro{
+    padding: 5px;
+    background-color: #503e93;
+    border-radius:10px ;
+    min-width: 15vw;
+    height:700px;
+}
+.labels{
+   color: red
+}
+
+.Filtro__Categorias{
+  display: block; 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color:white;
+  transform: translateX(-50vw)!important; 
+  transition: 1.5s;
+  
+}
+.Filtro__Categoriasmostrar{
+   display: block;
+   color:white;
+   list-style-type: none;
+   transition: 1.5s;
+   transform: translateX(0vw)!important; 
+   
+ 
+}
+

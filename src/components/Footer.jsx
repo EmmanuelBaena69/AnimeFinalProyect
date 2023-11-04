@@ -1,5 +1,5 @@
 import footer from "../styles/footer.css"
-import React from 'react';
+
 
 const Footer = () => {
   return (
@@ -23,7 +23,7 @@ const Footer = () => {
           <a className="text" href="https://www.instagram.com/jtejadabustamante?igshid=YTQwZjQ0NmI0OA%3D%3D" target="_blank">Juan Manuel/Instagram</a>
         </li>
       </ul>
-      <p>&copy; 2023 animeKira.com. Todos los derechos reservados.</p>      
+      <p>&copy; 2023 animeKira.com. Todos los derechos reservados.</p>
     </footer>
   );
 }
