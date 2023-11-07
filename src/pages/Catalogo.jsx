@@ -11,7 +11,7 @@ const Catalogo = () => {
   const [seleccionados, setSeleccionados] = useState([]);
 
   const handleChecked = (event) => {
-    const { name, value, checked } = event.target;
+    const { value, checked } = event.target;
 
     if (checked) {
       const seleccionadosSET = new Set([...seleccionados, value]);
@@ -21,8 +21,8 @@ const Catalogo = () => {
     if (!checked) {
       const index = seleccionados.indexOf(value);
       if (index !== -1) {
-        const newSeleccionados = [...seleccionados]
-        newSeleccionados.splice(index, 1)
+        const newSeleccionados = [...seleccionados];
+        newSeleccionados.splice(index, 1);
         setSeleccionados(newSeleccionados);
       }
     }
@@ -33,20 +33,26 @@ const Catalogo = () => {
     <>
       <Slider />
       <section className="mostrario">
-        <section className="Filtro">
-          <label htmlFor="Categorias" className="labels">
-            {" "}
-            Categorias{" "}
-          </label>
-          <input
-            type="checkbox"
-            id="Categorias"
-            className="input-checkbox"
-            onChange={cambio}
-          />
+        <section className={`Filtro${openList ? "mostrar" : ""}`}>
+          <article className="Filtro__titulo">
+            <label id="titulo">FILTROS</label>
+            <hr />
+            <article className="Titulo_categorias">
+              <label htmlFor="Categorias" className="labels">
+                {" "}
+                Categorias{" "}
+              </label>
+              <input
+                type="checkbox"
+                id="Categorias"
+                className="input-checkbox"
+                onChange={cambio}
+              />
+            </article>
+          </article>
 
           <ul className={`Filtro__Categorias${openList ? "mostrar" : ""}`}>
-            <li>
+            <li className="Categorias__li">
               <label htmlFor="Romance"> Romance </label>
               <input
                 name="Romance"
@@ -58,7 +64,7 @@ const Catalogo = () => {
               />
             </li>
 
-            <li>
+            <li className="Categorias__li">
               <label htmlFor="Comedia">Comedia</label>
               <input
                 name="Comedia"
@@ -69,7 +75,8 @@ const Catalogo = () => {
                 onChange={(e) => handleChecked(e)}
               />
             </li>
-            <li>
+
+            <li className="Categorias__li">
               <label htmlFor="Accion"> Accion </label>
               <input
                 name="Accion"
@@ -87,7 +94,7 @@ const Catalogo = () => {
           {openList
             ? animes
                 .filter(({ categoria }) =>
-                  categoria.some( cat =>seleccionados.includes(cat))
+                  categoria.some((cat) => seleccionados.includes(cat))
                 )
                 .map((elemento) => (
                   <Card key={elemento.titulo} paquete={elemento} />
