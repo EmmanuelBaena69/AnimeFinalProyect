@@ -63,11 +63,15 @@
     transform-origin: 0;
     transform: translateY(-1.5em);
     transition: transform 0.3s;
+    font-weight: bold;
+    font-size: 15px;    
+    font-family: 'Poppins', sans-serif;
+
 }
 
-.login__input:focus + .login__label {
+.login__input:focus + .login__label{
     font-size: medium;
-    color: blue;
+    color: white;
     transform: translateY(-3em) scale(0.75);
     left: 0;
 }

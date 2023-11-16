@@ -1,0 +1,64 @@
+body{
+    color:black;
+}
+.mostrario{
+    display: flex;
+    flex-direction:row;
+    padding:0 20px;
+    gap:5px
+}
+.Filtro{
+    padding: 5px;
+    background-color: black;
+    border:2px blue solid;
+    border-radius:10px ;
+    min-width: 15vw;
+    height: 60px;
+    transition: 1.5s;
+    color:#f10bf1;
+    
+}
+.Filtro__titulo{
+    display: flex;
+    flex-direction: column;
+    font-weight:bold ;
+}
+#titulo{
+    align-self: center ;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.labels{
+    color:white;
+    
+}
+.Filtromostrar{
+    padding: 5px;
+    background-color: black;
+    border-radius:10px ;
+    min-width: 15vw;
+    height: 200px;
+    transition:1.5s;
+    color:#c81616;
+    border:2px red solid;
+}
+
+
+.Filtro__Categorias{
+  display: block; 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color:white;
+  transform: translateX(-50vw)!important; 
+  transition: 1.5s;
+  
+}
+
+.Filtro__Categoriasmostrar{
+   display: block;
+   color:white;
+   list-style-type: none;
+   transition: 1.5s;
+   transform: translateX(0vw)!important; 
+}
+

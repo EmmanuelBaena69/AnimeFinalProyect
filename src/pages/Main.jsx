@@ -7,10 +7,6 @@ const Main = () => {
   const { animes } = animeData;
   return (
     <>
-      <section className="center-section">
-        <h1>Todo lo Reciente</h1>
-      </section>
-      <Slider />
       <section className="CP">
         {animes
           .filter(elemento => elemento.estado === "Reciente")

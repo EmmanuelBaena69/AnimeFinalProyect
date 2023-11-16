@@ -6,6 +6,7 @@
     align-items: center;
     margin-top: 20px;
     background-color: black;
+    min-width: 50vw;
 }
 
 .button {

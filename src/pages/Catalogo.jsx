@@ -1,25 +1,35 @@
+import { useState } from "react";
 import Card from "../components/Card";
 import animeData from "../data/animeData.json";
-
-
+import Slider from "../components/slider";
+import styles from "../styles/filtro.css";
 
 const Catalogo = () => {
   const { animes } = animeData;
-  return (
-    <>
+  const [openList, setOpenList] = useState(false);
+  const cambio = () => setOpenList(!openList);
+  const [seleccionados, setSeleccionados] = useState([]);
 
-      <section className="CP">
-        {animes.map((elemento) => (
-          <div key={elemento.titulo} className="catalogo-item">
-            <Card paquete={elemento} />
-            <div className="button-container">
-              <button className="button">Like</button>
-              <button className="button">Dislike</button>
-            </div>
-          </div>
-        ))}
-      </section>
-    </>
+  const handleChecked = (event) => {
+    const { value, checked } = event.target;
+
+    if (checked) {
+      const seleccionadosSET = new Set([...seleccionados, value]);
+      setSeleccionados([...seleccionadosSET]);
+    }
+
+    if (!checked) {
+      const index = seleccionados.indexOf(value);
+      if (index !== -1) {
+        const newSeleccionados = [...seleccionados];
+        newSeleccionados.splice(index, 1);
+        setSeleccionados(newSeleccionados);
+      }
+    }
+
+    console.log(seleccionados);
+  };
+  return (
   );
 };
 export default Catalogo;

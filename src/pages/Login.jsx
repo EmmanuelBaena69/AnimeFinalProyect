@@ -8,7 +8,6 @@ const Login = () => {
         <header id="cabeza">
           <h1 id="cabeza__titulo"></h1>
         </header>
-
         <form  className="login">
           <section id="">
             <h1 className="login__title">Login</h1>
@@ -33,7 +32,7 @@ const Login = () => {
               className="login__input"
             />
             <label htmlFor="login__pass" className="login__label">
-              contraseña
+              Contraseña
             </label>
           </section>
 
