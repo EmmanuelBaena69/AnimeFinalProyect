@@ -1,0 +1,38 @@
+.destacados__lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.destacados__titulo{
+  color: white;
+  text-align: center;
+  margin: 15px;
+}
+
+.destacados__item {
+  width: 300px;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 15px;
+  border: 2px rgba(0, 47, 255, 0.5) solid;
+  transition: all 0.2s ease;
+  margin: 0 10px 25px;
+  color: #E966A0;
+}
+
+.destacados__item:hover {
+  transform: scale(1.1);
+}
+
+.destacados__item img {
+  width: 320px;
+  height: 450px;
+  border-radius: 15px;
+}
+
+.destacados p{
+  color: #E966A0;
+}
