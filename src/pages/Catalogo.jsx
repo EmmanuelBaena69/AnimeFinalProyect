@@ -29,7 +29,5 @@ const Catalogo = () => {
 
     console.log(seleccionados);
   };
-  return (
-  );
 };
 export default Catalogo;

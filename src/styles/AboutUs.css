@@ -1,19 +1,43 @@
-.Mision{
-    color:white;
-}
-.Mision{
-    padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-}
-.Mision__Article{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: auto;
-}
-@media(min-width:768px){
-    .Mision__Article{
-        width: 750px;
-    }
-}
+/* AboutUs.css */
+
+.Mision {
+    text-align: center; 
+    padding: 20px; 
+    color: white;
+  }
+  
+  .Mision__Imagen {
+    position: relative; 
+  }
+  
+  .Mision__Imagen img {
+    width: 100%; 
+    max-width: 900px;
+    display: block; 
+    margin: 0 auto; 
+    margin-bottom: 10px;
+    opacity: 0.8;
+  }
+  
+  .Mision__Title {    
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    z-index: 1; 
+    text-shadow: 0 0 10px rgba(255, 0, 0, 1);
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+  
+  .Mision__Article {
+    max-width: 800px;
+    margin: 0 auto; 
+  }
+  
+  .Article__Parrafo {
+    margin-bottom: 20px; 
+    font-size: 1.2  rem;
+  }
+  

@@ -8,21 +8,19 @@ import Login from "./pages/Login"
 import AboutUs from "./pages/AboutUs"
 
 function App() {
-  
+
   return (
-    <>
-      <Router>
-        <Routes>
-          <Route path="/" element={<PublicLayout />}>
-            <Route path="" element={<Main />} />
-            <Route path="destacados" element={<Destacados />} />
-            <Route path="catalogo" element={<Catalogo />} />
-            <Route path="login" element={<Login />} />
-            <Route path="aboutus" element={<AboutUs />} />
-          </Route>
-        </Routes>
-      </Router>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<PublicLayout />}>
+          <Route path="" element={<Main />} />
+          <Route path="destacados" element={<Destacados />} />
+          <Route path="catalogo" element={<Catalogo />} />
+          <Route path="login" element={<Login />} />
+          <Route path="aboutus" element={<AboutUs />} />
+        </Route>
+      </Routes>
+    </Router>
   );
 }
 
