@@ -34,15 +34,22 @@ const Login = () => {
         if (!res.ok) {
           throw new Error("Error");
         }
-        res.json();
+        return res.json();
       })
       .then((data) => {
         console.log(data);
       })
+      .then((data) => {
+        console.log(data);
+        setUserData((prevValue) => ({
+          ...prevValue,
+          login__correo: "",
+          login__pass: "",
+        }));
+      })
       .catch((err) => {
         console.error(err);
       })
-
   };
   return (
     <section className="bodylogin">
