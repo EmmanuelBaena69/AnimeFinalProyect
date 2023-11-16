@@ -45,56 +45,54 @@ const Login = () => {
 
   };
   return (
-    <>
-      <section className="bodylogin">
-        <header id="cabeza">
-          <h1 id="cabeza__titulo"></h1>
-        </header>
-        <form className="login" onSubmit={(e) => handleSubmit(e)}>
-          <section id="">
-            <h1 className="login__title">Login</h1>
-          </section>
-          <section className="containerInput">
-            <input
-              type="email"
-              name="login__correo"
-              id="login__correo"
-              className="login__input"
-              onChange={(e) => handleChange(e)}
-              required
-            />
-            <label htmlFor="login_correo" className="login_label">
-              Correo
-            </label>
-          </section>
+    <section className="bodylogin">
+      <header id="cabeza">
+        <h1 id="cabeza__titulo"></h1>
+      </header>
+      <form className="login" onSubmit={(e) => handleSubmit(e)}>
+        <section id="">
+          <h1 className="login__title">Login</h1>
+        </section>
+        <section className="containerInput">
+          <input
+            type="email"
+            name="login__correo"
+            id="login__correo"
+            className="login__input"
+            onChange={(e) => handleChange(e)}
+            required
+          />
+          <label htmlFor="login_correo" className="login_label">
+            Correo
+          </label>
+        </section>
 
-          <section className="containerInput">
-            <input
-              type="password"
-              name="login__pass"
-              id="login__pass"
-              className="login__input"
-              onChange={(e) => handleChange(e)}
-              required
-            />
-            <label htmlFor="login_pass" className="login_label">
-              Contraseña
-            </label>
-          </section>
+        <section className="containerInput">
+          <input
+            type="password"
+            name="login__pass"
+            id="login__pass"
+            className="login__input"
+            onChange={(e) => handleChange(e)}
+            required
+          />
+          <label htmlFor="login_pass" className="login_label">
+            Contraseña
+          </label>
+        </section>
 
-          <section>
-            <button
-              type="submit"
-              name=""
-              id="login__enviar"
-              className="login__input"
-            >
-              Subir
-            </button>
-          </section>
-        </form>
-      </section>
-    </>
+        <section>
+          <button
+            type="submit"
+            name=""
+            id="login__enviar"
+            className="login__input"
+          >
+            Subir
+          </button>
+        </section>
+      </form>
+    </section>
   );
 };
 export default Login;
